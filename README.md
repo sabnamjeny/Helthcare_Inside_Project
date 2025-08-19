@@ -1,28 +1,55 @@
-# Helthcare_Inside_Project
-
 Healthcare Insights Dashboard
-Project Overview:
-The Healthcare Insights Dashboard is an interactive web application built using Streamlit, Python, and Pandas. The goal of this project is to provide insights into patient demographics, treatment patterns, and healthcare facility utilization to improve decision-making in healthcare.
+📌 Project Overview
 
-Objective:
-The main objective of this project is to analyze healthcare data and present key metrics and trends through an interactive dashboard that can be used by healthcare professionals to monitor patient information and treatment patterns.
+This project is an interactive web application built using Streamlit, Python, and Pandas. The goal is to analyze patient demographics, treatment patterns, and healthcare facility utilization and present them in a user-friendly dashboard for better decision-making in healthcare.
 
-Technologies Used:
-Python: For data processing and analysis
-Streamlit: For building the interactive dashboard
-Pandas: For data manipulation
-Matplotlib/Plotly: For data visualization
-SQLite: For database management
-Key Features:
-Patient Demographics: Insights into the age, gender, and location of patients.
-Treatment Patterns: Data on various treatments and their effectiveness.
-Healthcare Facility Utilization: Trends in healthcare facility usage.
-Interactive Filters: Users can filter data by various criteria like age, gender, and treatment type.
-Visualization: Interactive charts and graphs that display important statistics in real-time.
-Installation:
-To run this project locally, follow the steps below:
+🎯 Objective
 
+Analyze healthcare datasets.
 
-=======
+Present key metrics and trends through an interactive dashboard.
 
-Healthcare-Insight-Project
+Provide healthcare professionals with actionable insights.
+
+🛠️ Technologies Used
+
+Python – Data processing and analysis
+
+Streamlit – Interactive dashboard building
+
+Pandas – Data manipulation
+
+Matplotlib / Plotly – Data visualization
+
+SQLite – Database management
+
+🔑 Key Features
+
+Patient Demographics: Analyze age, gender, and location of patients.
+
+Treatment Patterns: Track types of treatments and their effectiveness.
+
+Healthcare Facility Utilization: Monitor how healthcare facilities are being used over time.
+
+🖥️ Interactive Features
+
+Filter Options: Filter data by age, gender, treatment type, etc.
+
+Dynamic Visualizations: Interactive charts and graphs for real-time insights.
+
+# Clone the repository
+git clone https://github.com/sabnamjeny/Helthcare_Inside_Project.git
+
+# Navigate into the directory
+cd Helthcare_Inside_Project
+
+# Create and activate virtual environment (optional)
+python3 -m venv venv
+source venv/bin/activate   # Linux/MacOS
+venv\Scripts\activate      # Windows
+
+# Install required dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit app
+streamlit run main.py
