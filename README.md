@@ -22,9 +22,7 @@ Visualization: Interactive charts and graphs that display important statistics i
 Installation:
 To run this project locally, follow the steps below:
 
-Clone the repository:
-git clone https://github.com/sabnamjeny/healthcare-Inside-project.git
-cd healthcare-Inside-project
+
 =======
 
 Healthcare-Insight-Project
